@@ -1,0 +1,4 @@
+Java is a fully object-oriented language, unlike C++ which is semi object-oriented. 
+It supports every OOP concept such as Abstraction, Encapsulation, Inheritance, Polymorphism. 
+Java programs are developed using classes and objects. 
+Another notable feature is that in Java the main() function is defined under a class

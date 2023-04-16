@@ -1,0 +1,3 @@
+Java does not have any full form, but a programming language originally developed by James Gosling at Sun Microsystems in 1995. 
+The developers of Java were drinking coffee while they were deciding the name of their programming language. 
+So, they gave it the name "Java" as a slang of "Coffee".
