@@ -1,0 +1,109 @@
+Customer
+Daenerys Targaryen
+Drinks-Pepsi
+Coffee-Folgers
+Drinks-Crystal Light
+Tea-Lipton
+Cereals-Kellogg's
+Cereals-Special K
+Milk-Highland
+Cookies-Oreo
+Chips-Great Value
+Popcorn-Pop Secret
+Breakfast Bars-Nature Valley
+TV-Sony
+Shoes-Skechers
+Wireless Speakers-Sony
+Yogurt-Chobani
+iPads-Apple
+Phones-Apple
+Beds-Zinus
+Comforters-Byourbed
+Pillows-Serta
+Customer
+Jon Snow
+Tea-Lipton
+Drinks-CocaCola
+Cookies-Keebler
+Chips-Lay's
+Breakfast Bars-Special K
+Pancakes-Bisquick
+Pasta-Great Value
+Coffee-Dunkin Donuts
+Milk-Great Value
+Shoes-Avia
+Wireless Speakers-Samsung
+Printers-Canon
+Cereals-Special K
+Phones-Samsung
+Beds-Mainstays
+Comforters-Mainstays
+Pillows-Beautyrest
+Doormats-Apache Mills
+Toothpaste-Crest
+Towels-Martex
+Customer
+Arya Stark
+Tea-Pure Leaf
+Drinks-Pepsi
+Cookies-Nabisco
+Chips-Doritos
+Breakfast Bars-Fiber One
+Coffee-Starbucks
+TV-Sharp
+Shoes-Skechers
+Wireless Speakers-JBL
+Yogurt-Chobani
+Cereals-Special K
+Phones-Apple
+Beds-Zinus
+Pillows-Serta
+Doormats-Mainstays
+Clocks-Westclox
+Perfumes-Burberry
+Shampoo-Pantene
+Body Lotion-Vaseline
+Customer
+Tyrion Lannister
+Tea-Teavana
+Drinks-Pepsi
+Cookies-Oreo
+Chips-Pringles
+Popcorn-Act II
+Pasta-Great Value
+Yeast-Fleischmann's
+TV-Samsung
+Shoes-Skechers
+Wireless Speakers-Samsung
+Cereals-Kellogg's
+Phones-LG
+Beds-Mainstays
+Comforters-Better Homes & Gardens
+Pillows-Mainstays
+Perfumes-Gucci
+Shampoo-Pantene
+Conditioners-Pantene
+Toothpaste-Colgate
+Plates-Corelle
+Customer
+Petyr Baelish
+Tea-AriZona
+Drinks-Pepsi
+Cookies-Oreo
+Chips-Doritos
+Breakfast Bars-Nature Valley
+Pancakes-Krusteaz
+Pasta-Barilla
+Pasta-Great Value
+Milk-Highland
+TV-Sony
+Shoes-Skechers
+Wireless Speakers-Bose
+Yogurt-Great Value
+Laptops-Dell
+Cereals-Kellogg's
+Phones-Samsung
+Beds-Mainstays
+Comforters-Better Homes & Gardens
+Pillows-MyPillow
+Clocks-Infinity Instruments

@@ -1,0 +1,16 @@
+package enums;
+/**
+ * 
+ * @author S549701 - Naga Akhil Chaparala
+ *
+ */
+public enum Roles {
+	/**
+	 * ENUM Roles
+	 */
+	DIRECTOR, PRODUCER, MUSIC_DIRECTOR,
+	ART_DIRECTOR, ENGINEERING_SERVICES, 
+	SPECIAL_EFFECTS, MUSIC_EDITOR,
+	VFX_ART_DIRECTOR, STUNT_COORDINATOR,
+	STUNT_PERFORMER;
+}
