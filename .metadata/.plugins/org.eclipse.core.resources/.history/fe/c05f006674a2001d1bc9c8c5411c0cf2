@@ -1,0 +1,68 @@
+package linkedlistdemo;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.ListIterator;
+
+public class LinkedListDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkedList<String> designations = new LinkedList<>();
+		
+		designations.add("Professor");
+		designations.add("Assistant Professor");
+		designations.add("Graduate Assistant");
+		designations.add("Teaching Assistant");
+		/*
+		 * Printing the LinkedList after using add() with Enhanced For-Loop
+		 */
+		for(String d : designations) {
+			System.out.println(d);
+		}
+		System.out.println("\n");
+		
+		/*
+		 * Printing the LinkedList after using add Method using Enhanced For-Loop
+		 */
+		designations.add(0,"Student");
+		for(String d : designations) {
+			System.out.println(d);
+		}
+		System.out.println("\n");
+		/*
+		 * Printing the LinkedList using Iterator using Enhanced For-Loop
+		 */
+		designations.add("Research Assistant");
+		Iterator<String> d_it = designations.iterator();
+		while(d_it.hasNext()) {
+			System.out.println(d_it.next());
+		}
+		System.out.println("\n");
+		
+		/*
+		 * Printing the LinkedList using ListIterator using Enhanced For-Loop
+		 */
+		designations.add("Admin Data Assistant");
+		ListIterator<String> d_lit = designations.listIterator();
+		/*
+		 * Printing the LinkedList next elements from HOME(first)
+		 */
+		while(d_lit.hasNext()) {
+			System.out.println(d_lit.next());
+		}
+		System.out.println("\n");
+		
+		/*
+		 * Printing the LinkedList previous elements from HOME(first)
+		 */
+		designations.add("Software Developer");
+		ListIterator<String> dp = designations.listIterator(designations.size());
+		System.out.println(dp.hasPrevious());
+		while(dp.hasPrevious()) {
+		System.out.println(dp.previous());
+		}
+		System.out.println("\n");
+	}
+
+}

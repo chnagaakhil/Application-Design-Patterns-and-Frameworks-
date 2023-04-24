@@ -1,0 +1,14 @@
+package com.NagaAkhilProject.ParametersDemo.Controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class DogController {
+	
+	@RequestMapping("display")
+	public String display() {
+		return "display.html";
+	}
+
+}

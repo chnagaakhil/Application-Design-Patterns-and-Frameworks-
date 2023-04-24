@@ -1,0 +1,5 @@
+package com.NagaAkhilProject.DogsManagementSystem.repository;
+
+public class DogRepository {
+
+}

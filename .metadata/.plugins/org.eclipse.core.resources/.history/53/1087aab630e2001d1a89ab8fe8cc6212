@@ -1,0 +1,5 @@
+package com.NagaAkhilProject.DogsManagementSystem.Models;
+
+public class Trainer {
+
+}

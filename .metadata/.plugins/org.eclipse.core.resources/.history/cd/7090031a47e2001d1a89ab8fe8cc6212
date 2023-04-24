@@ -1,0 +1,12 @@
+package com.NagaAkhilProject.DogsManagementSystem.repository;
+
+import java.util.List;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.NagaAkhilProject.DogsManagementSystem.Models.Dog;
+
+public interface DogRepository extends CrudRepository<Dog, Integer>{
+	List<Dog> findByName(String name);
+
+}

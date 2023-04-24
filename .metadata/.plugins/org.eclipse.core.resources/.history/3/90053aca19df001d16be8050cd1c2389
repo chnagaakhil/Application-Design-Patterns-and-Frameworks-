@@ -1,0 +1,8 @@
+package com.NagaAkhilProject.SampleWebAppDemo;
+
+public class DogController {
+	public String  dogHome() {
+		return "dogHome.html";
+	}
+
+}

@@ -1,0 +1,31 @@
+package com.NagaAkhilProject.DogDemo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+@SpringBootApplication
+public class DogDemoApplication {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext appContext = SpringApplication.run(DogDemoApplication.class, args);
+		System.out.println("Hello, Spring Boot");
+		System.out.println("Good Bye, Corona");
+		
+		Dog d1 = appContext.getBean(Dog.class);
+		System.out.println(d1);
+		d1.setId(12);
+		d1.setName("Spike");
+		d1.setBreed("German Shepherd");
+		System.out.println(d1);
+		
+		Dog d2 = appContext.getBean(Dog.class);
+		System.out.println(d2);
+		d2.setId(15);
+		d2.setName("Robby");
+		d2.setBreed("BullDog");
+		System.out.println(d2);
+		System.out.println(d1);
+	}
+
+}

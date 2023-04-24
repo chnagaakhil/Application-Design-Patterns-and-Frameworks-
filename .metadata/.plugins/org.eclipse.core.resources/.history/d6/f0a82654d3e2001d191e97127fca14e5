@@ -1,0 +1,8 @@
+server.tomcat.accesslog.enabled=true
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.hibernate.show-sql=true
+spring.datasource.url=jdbc:postgresql://dpg-ch2usrqut4m9tsaq7tcg-a.oregon-postgres.render.com:5432/database_dogsmanagementsystem_patterns
+spring.datasource.username= database_dogsmanagementsystem_patterns_user
+spring.datasource.password= bdBky8IOZM0Z9cf2a4N1oRk0pRB8SEEk
+spring.datasource.driver-class-name=org.postgresql.Driver

@@ -1,0 +1,29 @@
+package linkedlistdemo;
+
+import java.util.LinkedList;
+
+public class LinkedListDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkedList<String> designations = new LinkedList<>();
+		
+		designations.add("Professor");
+		designations.add("Assistant Professor");
+		designations.add("Graduate Assistant");
+		designations.add("Teaching Assistant");
+		/*
+		 * Printing the LinkedList using Enhanced For-Loop
+		 */
+		for(String d : designations) {
+			System.out.println(d);
+		}
+		
+		designations.add(0,"Student");
+		for(String d : designations) {
+			System.out.println(d);
+		}
+
+	}
+
+}

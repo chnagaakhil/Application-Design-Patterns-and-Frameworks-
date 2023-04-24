@@ -1,0 +1,41 @@
+package linkedlistdemo;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+
+public class LinkedListDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkedList<String> designations = new LinkedList<>();
+		
+		designations.add("Professor");
+		designations.add("Assistant Professor");
+		designations.add("Graduate Assistant");
+		designations.add("Teaching Assistant");
+		/*
+		 * Printing the LinkedList after using add() with Enhanced For-Loop
+		 */
+		for(String d : designations) {
+			System.out.println(d);
+		}
+		System.out.println("\n");
+		
+		/*
+		 * Printing the LinkedList after using add Method using Enhanced For-Loop
+		 */
+		designations.add(0,"Student");
+		for(String d : designations) {
+			System.out.println(d);
+		}
+		/*
+		 * Printing the LinkedList using Iterator Method using Enhanced For-Loop
+		 */
+		Iterator<String> d_it = designations.iterator();
+		while(d_it.hasNext()) {
+			System.out.println(d_it.next());
+		}
+		
+	}
+
+}

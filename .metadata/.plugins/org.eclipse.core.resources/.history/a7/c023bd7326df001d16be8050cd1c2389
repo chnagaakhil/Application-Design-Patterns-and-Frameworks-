@@ -1,0 +1,29 @@
+package com.NagaAkhilProject.ParametersDemo.Models;
+
+public class Dog {
+	private int dogId;
+	private String dogName;
+	private String breed;
+	public int getDogId() {
+		return dogId;
+	}
+	public void setDogId(int dogId) {
+		this.dogId = dogId;
+	}
+	public String getDogName() {
+		return dogName;
+	}
+	public void setDogName(String dogName) {
+		this.dogName = dogName;
+	}
+	public String getBreed() {
+		return breed;
+	}
+	public void setBreed(String breed) {
+		this.breed = breed;
+	}
+	@Override
+	public String toString() {
+		return "Dog [dogId=" + dogId + ", dogName=" + dogName + ", breed=" + breed + "]";
+	}
+}
