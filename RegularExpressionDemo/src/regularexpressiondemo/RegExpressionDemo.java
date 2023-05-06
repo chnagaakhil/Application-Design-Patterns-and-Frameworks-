@@ -58,7 +58,7 @@ public class RegExpressionDemo {
 		// (a) “#123” (b) “123” (c) “123#” (d) “abc#”
 		// None. Only satisfies 2 characters start with digit and followed by non-word
 		
-		String numberMatch = "2#";
+		String numberMatch = "1#";
 		String numberMatchPattern = "\\d\\W";
 
 		if (numberMatch.matches(numberMatchPattern)) {
@@ -85,7 +85,7 @@ public class RegExpressionDemo {
 		// 8. Write a regular expression that matches only the following numbers:
 		// 010, 111, 212, 313, 414, 515, 616, 717, 818, 919 [Hint: Capturing group]
 		
-		String numbers = "010";
+		String numbers = "313";
 		String numbersPattern = "^(\\d)\\d\\1$";
 
 		if (numbers.matches(numbersPattern)) {
